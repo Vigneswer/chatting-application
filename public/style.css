@@ -1,0 +1,21 @@
+
+#messages::-webkit-scrollbar {
+  width: 8px;                /* scrollbar width */
+}
+
+#messages::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);  /* faint background */
+  border-radius: 10px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, rgb(79, 131, 69), #8fe031); 
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2); /* glass effect */
+  box-shadow: 0 0 8px rgba(77, 33, 33, 0.6);
+}
+
+#messages::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, rgb(79, 131, 69), #8fe031); /* hover shine */
+}
+
